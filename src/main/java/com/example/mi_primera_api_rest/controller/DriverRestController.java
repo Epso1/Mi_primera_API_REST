@@ -14,6 +14,7 @@ import java.util.List;
 @RequestMapping("/api")
 
 public class DriverRestController {
+    //DriverService is an interface, so we need to inject an implementation of it.
 
     private final DriverService driverService;
 
